@@ -34,6 +34,14 @@ The data contains the name of the country, and the population, in millions, as o
 The data is originally from the Population Reference Bureau (PRB); more information on the data can be found on their website, here: https://www.prb.org/2018-world-population-data-sheet-with-focus-on-changing-age-structures/. This data set is not specifically licensed, but it is covered by the copyright on PRB's website. Because the data is not licensed to allow sharing or redistribution, I have not included it in this repository; however, it can be easily downloaded from either of the links above.
 
 ## Results
+The results of this analysis include a final .csv with processed data, and four tables:
+
+ - Top 10 countries ranked by proportion of articles per capita as a percentage
+ - Bottom 10 countries ranked by proportion of articles per capita as a percentage
+ - Top 10 countries ranked by proportion of high quality articles as a percentage
+ - Bottom 37 countries ranked by proportion of high quality articles as a percentage (note that this table shows the bottom 37 countries because there were 37 countries with zero high quality articles)
+
+The tables can be found in the jupyter notebook (hcds-a2-bias.ipynb) included in this repository; they are not copied here due to markdown's lack of table functionality.
 
 ## Discussion
 I've split this discussion of the results of this analysis into two sections: 1) potential sources of bias in this analysis, 2) how the results show/do not show these sources of bias. Throughout both sections I discuss potential reasons for these sources of bias.
